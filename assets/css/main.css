@@ -100,6 +100,8 @@ input, select, textarea {
 		font-size: 20pt;
 		font-weight: 400;
 		line-height: 1.75em;
+		/* background-image: url("../../images/quantum.jpg"); */
+
 	}
 
 	a {
