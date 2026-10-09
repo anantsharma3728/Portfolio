@@ -1,172 +1,107 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Anant Sharma - physicist and quantum engineer.">
+  <title>Anant Sharma</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <header class="site-header wrap">
+    <a class="name" href="#top">Anant Sharma</a>
+    <nav aria-label="Primary navigation">
+      <a href="#work">Work</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-		<!-- Header -->
-			<header id="header" style="background-position: left 0px;">
-				<div class="inner">
-					<a href="#" class="image avatar"><img src="images/avatar_1.jpg" alt="" /></a>
-					<h1><strong>Hey I am Anant Sharma,</strong><br> Quantum Enthusiast
-					<br />
-					<h4 style="font-family:Georgia, 'Times New Roman', Times, serif ;"> Eramus Mundus Scholar - <a href="https://www.quanteem.eu/">QuanTEEM</a> </h4>
-				</div>
-				<footer id="footer">
-					<div class="inner">
-						<ul class="icons" >
-							<li><a href = "https://www.linkedin.com/in/anant24/" class="icon brands fa-linkedin"></a></li>
-							<li><a href="https://github.com/anantsharma3728" class="icon brands fa-github"><span class="label">Github</span></a></li>
-							<li><a href="https://medium.com/@anantsharma2410" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li>
-						</ul>
-						<ul class="copyright">
-							<li>&copy; Mahim Beach, Mumbai. </li></li>
-						</ul>
-					</div>
-				</footer>
-			</header>
+  <main id="top">
+    <section class="intro wrap">
+      <div class="intro-copy">
+        <p class="kicker">Physics · Quantum technologies</p>
+        <h1>Hi, I’m Anant.</h1>
+        <p class="lead">I study physics and quantum technologies! I have worked on quantum algorithms, superconducting circuits, ion traps, and quantum software.</p>
+        <p class="location">Currently interested in quantum hardware and the practical work that connects simulations with experiments and using quantum circuits to test fundamentals of quantum mechanics!</p>
+        <a class="cv-link" href="AcademicCV_V6.pdf" target="_blank">View CV <span aria-hidden="true">↗</span></a>
+      </div>
+      <img class="portrait" src="images/new_main.jpg" alt="Anant Sharma" style="width: 350px;">
+    </section>
 
-		<!-- Main -->
-			<div id="main">
+    <section id="work" class="section wrap" aria-labelledby="work-title">
+      <div class="section-heading"><p class="number">01</p><h2 id="work-title">Research &amp; projects</h2></div>
+      <div class="entries">
+        <article class="entry">
+          <div class="entry-meta"><p>2026</p><p>Master’s thesis</p><p>Alice &amp; Bob</p></div>
+          <div><h3>Spurious modes in superconducting resonators</h3><p>During my Master’s thesis at Alice &amp; Bob, I explored the effects of spurious modes on superconducting resonators. I built models, fitting methods, and design-automation tools to study circuits and compare simulations with experimental measurements.</p><p>I also maintained research code and technical documentation while working with chip-design, simulation, and experimental teams.</p><a class="inline-link" href="documents/masters-thesis-superconducting-resonators.pdf" target="_blank">Read Master’s thesis ↗</a></div>
+          <p class="place">Paris, France</p>
+        </article>
+        <article class="entry">
+          <div class="entry-meta"><p>2025 – 2026</p><p>Semester project</p><p>Aarhus University</p></div>
+          <div><h3>Ba<sup>+</sup> ion coherence</h3><p>Modelled Rabi oscillations and noise in a driven barium-ion system, and compared continuous dynamical-decoupling predictions with ion-trap data.</p><p>Using Python, I solved optical Bloch equations for detuning jitter and Rabi-frequency noise, and explored dressed-state and phase-modulated driving approaches.</p><a class="inline-link" href="documents/ion-trap-coherence-report.pdf" target="_blank">Read project report ↗</a></div>
+          <p class="place">Aarhus, Denmark</p>
+        </article>
+        <article class="entry">
+          <div class="entry-meta"><p>2025</p><p>Semester project</p><p>Chalmers University</p></div>
+          <div><h3>Flux-tunable resonator noise</h3><p>Developed data-acquisition and post-processing scripts for flux-tunable resonators, and worked with homodyne readout and dilution-fridge experiments.</p><p>The project included assembling a homodyne readout setup and characterising the noise response of the resonators.</p><a class="inline-link" href="documents/chalmers-resonator-poster.pdf" target="_blank">View project poster ↗</a></div>
+          <p class="place">Gothenburg, Sweden</p>
+        </article>
+        <article class="entry">
+          <div class="entry-meta"><p>2023 – 2024</p><p>CQuERE, TCG CREST</p></div>
+          <div><h3>Travelling salesman problem</h3><p>Worked on a quantum algorithm for the Hamiltonian-cycle formulation of the travelling salesman problem, including circuit verification and runtime analysis.</p><p>The work used quantum phase estimation and the quantum Fourier transform, and led to a joint publication in <em>Quantum Information &amp; Computation</em>.</p><a class="inline-link" href="https://eprint.iacr.org/2024/626" target="_blank" rel="noreferrer">Read the preprint ↗</a></div>
+          <p class="place">Kolkata, India</p>
+        </article>
+        <article class="entry">
+          <div class="entry-meta"><p>2022 – 2023</p><p>Bachelor’s thesis</p><p>Qulabs</p></div>
+          <div><h3>Universal blind quantum computing simulator</h3><p>Built a simulator for measurement-based quantum computing using cluster states, Qiskit, dynamic circuits, and OpenQASM 3.</p><p>I benchmarked it with quantum gates and common algorithms, and explored a path towards running the protocol on real quantum hardware.</p><a class="inline-link" href="documents/bachelors-thesis-blind-quantum-computing.pdf" target="_blank">Read Bachelor’s thesis ↗</a></div>
+          <p class="place">India</p>
+        </article>
+        <article class="entry">
+          <div class="entry-meta"><p>2021 – 2022</p><p>BosonQ Psi</p></div>
+          <div><h3>BMW quantum computing challenges</h3><p>Explored an annealer-based QUBO approach for linear systems and benchmarked D-Wave annealers for large sparse matrices.</p><p>I compared runtime, minimum energy, solution quality, and error for different encodings, including sparse matrices up to 3100 × 3100.</p></div>
+          <p class="place">India</p>
+        </article>
+      </div>
+    </section>
 
-				<!-- One -->
-					<section id="one">
-						<header class="major">
-							<h2 style="font-family:Georgia, 'Times New Roman', Times, serif ;">Be scared, but do it anyways!</h2>
-							<h3>Hello, I am First year Master's Student at the Universite de Bourgogne, France under the Erasmus Mundus Scheme QuanTEEM.
-								
-							</h3> 
-						</header>
-						<p> After graduating with a Bachelors in Physics from Fergusson College, Pune. I worked with at the Center for Quantum Engineering, Research and Education 
-						<a href="https://www.tcgcrest.org/institutes/cquere/"> (CQuERE)</a> under the guidance of
-						 <a href="https://sites.google.com/view/shibdasroy/home?authuser=0"> Dr. Shibdas Roy</a> </p>
+    <section class="section wrap" aria-labelledby="publication-title">
+      <div class="section-heading"><p class="number">02</p><h2 id="publication-title">Publication</h2></div>
+      <article class="publication">
+        <p class="publication-type">Journal article · 2025</p>
+        <div><h3>An efficient quantum algorithm for the traveling salesman problem</h3><p>A. Sharma, N. Deshpande, S. Ghosh, S. Das &amp; S. Roy. <em>Quantum Information &amp; Computation</em> 25, 71–81.</p><a class="inline-link" href="https://eprint.iacr.org/2024/626" target="_blank" rel="noreferrer">Open paper ↗</a></div>
+      </article>
+    </section>
 
-						<p> At CQuERE I worked and developed a novel quantum algorithm for the Travelling Salesman Problem (TSP) - I'm not lying forreal <a href="https://eprint.iacr.org/2024/626"> Link</a>
-						The physics and CS community had mixed reactions to it. Apart from this, I am back to coursework as a part of Graduate degree, my coursework involves Quantum Phyics, 
-					Quantum Solid State Phyics, Signal Process and Nanofabrication.  </p>
+    <section id="education" class="section wrap" aria-labelledby="education-title">
+      <div class="section-heading"><p class="number">03</p><h2 id="education-title">Education</h2></div>
+      <div class="entries education-list">
+        <article class="entry"><div class="entry-meta"><p>2024 – 2026</p></div><div><h3>M.Sc. Quantum Technologies &amp; Engineering</h3><p>QuanTEEM · Université Bourgogne-Franche-Comté, Dijon, France, and Aarhus University, Denmark.</p><p>Thesis: “Effects of spurious modes on superconducting resonators.”</p></div></article>
+        <article class="entry"><div class="entry-meta"><p>2020 – 2023</p></div><div><h3>B.Sc. Physics</h3><p>Fergusson College, Pune, India.</p><p>Thesis: “Blind Quantum Computing.”</p></div></article>
+      </div>
+    </section>
 
-						<p>In addition to quantum computing, I am interested in radio astronomy, neutrino physics, photonics and mathematical paradoxes. 
-							I've been a member of several communities, learning, connecting, and networking with people from all walks of life, each with their own story to tell!
-						</p>
-						<p>
-							When I'm not doing something Quantum or Physcis, I'd be on the Football Field or in the mountains for trek(s). Seeya later Gator.
-						</p>
-						<!-- <p>
-							July 2024, I trekked The Kashmir Great Lakes with <a href="https://www.himalayanhikers.in/kashmir-great-lakes-trek/">Himalayan Hikers</a>. One of the best 
-							experiences in my life, 7 Days, 7 Lakes, 10 Strangers! 
+    <section class="section wrap" aria-labelledby="other-title">
+      <div class="section-heading"><p class="number">04</p><h2 id="other-title">Other things</h2></div>
+      <div class="two-column">
+        <div><h3>Tools</h3><p>Python, C++, Qiskit, Cirq, Ocean SDK, Qua, KiCad, OPX+, VNA, FEKO, and Git.</p></div>
+        <div><h3>Community</h3><p>Previously involved with Astroclub FC and QIndia / QWorld through science outreach, writing, web development, and event organisation.</p></div>
+      </div>
+    </section>
 
-							<h3><a href="gallery.html"> Gallery! </a></h3>
-		
-						</p> -->
-						<p>
-							<h5>
-								Below you can find a comprehensive list of my internships and projects
-							</h5>
-						</p>
+    <section id="contact" class="contact wrap" aria-labelledby="contact-title">
+      <p class="kicker">Contact</p>
+      <h2 id="contact-title">Get in touch</h2>
+      <p>For research, projects, or a general conversation:</p>
+      <a class="email" href="mailto:anantsharma2410@gmail.com">anantsharma2410@gmail.com</a>
+      <div class="socials"><a href="https://github.com/anantsharma3728" target="_blank" rel="noreferrer">GitHub</a><a href="https://www.linkedin.com/in/anant24/" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://medium.com/@anantsharma2410" target="_blank" rel="noreferrer">Medium</a></div>
+    </section>
+  </main>
 
-					</section>
-
-				<!-- Two -->
-					<section id="two">
-						<h2>Internships & Projects</h2>
-						<div class="row">
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/TSP.png" class="image fit thumb";><img src="images/thumbs/tcg.png" alt="" /></a>
-								<h3>TCG CREST - CQuERE (Center for Quantum Engineering, Research & Education )</h3>
-								<p>Project Guide: Prof. Shibdas Roy</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/qulabz_content.png" class="image fit thumb";><img src="images/thumbs/qulabz_new.png" alt="" /></a>
-								<h3>Qulabs</h3>
-								<p>Project: Blind Quantum Computing (Bachelors' Thesis - Submitted)</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/qkrishi_content.png" class="image fit thumb"><img src="images/thumbs/qkrishi_new.png" alt="" /></a>
-								<h3>QKrishi</h3>
-								<p>Project: Protein Folding Simulations on a Quantum Computer</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/iiserk_content.png" class="image fit thumb"><img src="images/thumbs/iiser_new.png" alt="" /></a>
-								<h3>IISER-Kolkata</h3>
-								<p>Project: Quantum Image Representation</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/bqp_content.png" class="image fit thumb"><img src="images/thumbs/bqp_new_1.png" alt="" /></a>
-								<h3>BosonQ psi</h3>
-								<p>Project: BMW-Challenges (Material Deformation Problem)</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/QWorld_content.png" class="image fit thumb"><img src="images/thumbs/qworld_new.png" alt="" /></a>
-								<h3>QWorld</h3>
-								<p>Project: </p>
-								<p>2021 - Mapping the landscape of Quantum Games</p>
-								<p>2022 - Optimizating Logistics using Quantum Computing</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/cadfeko_content.png" class="image fit thumb"><img src="images/thumbs/nax.png"  alt="" /></a>
-								<h3>Naxxatra</h3>
-								<p>Equinox - Cohort 5 (Radio Antenna Simulations)</p>
-							</article>
-						</div>
-					</section>
-
-					<p>
-						<h5>
-							<a href = "https://drive.google.com/file/d/15XuG0rpOF9YRPGdQuVTuSMv8FQzpPg6Z/view?usp=sharing" target=”_blank” >Find my Latest CV attached here</a>
-						</h5>
-					</p>
-
-				<!-- Three -->
-					<section id="three">
-						<h2>Get In Touch</h2>
-						<p>Feel free to connect me via Mail, I am always open to new project ideas. I learn by doing stuff. 
-							I can code, manage people sit, and solve problems. Got an Idea? Hit me Up!
-						</p>
-						<div class="row">
-							<div class="col-8 col-12-small">
-								<form method="post" action="#">
-									<div class="row gtr-uniform gtr-50">
-										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
-										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
-									</div>
-								</form>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</div>
-							<div class="col-4 col-12-small">
-								<ul class="labeled-icons">
-									<li>
-										<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
-										Mira Road<br />
-										Thane, 401107<br />
-										India
-									</li>
-									<li>
-										<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
-										<a href="mailto:anantsharma2410@gmail.com">anantsharma2410@gmail.com</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</section>
-
-			</div>
-
-		<!-- Footer -->
-
-
-			<!-- <script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script> -->
-
-	</body>
+  <footer class="footer wrap">© <span id="year">2026</span> Anant Sharma</footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
 </html>
